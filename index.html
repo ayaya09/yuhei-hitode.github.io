@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+
+</head>
+
+	<body>
+	<div class="hoge1">aaaaaaaaaaaaaa</div>
+	<form name="form1">
+	<input type="text" name="textbox">
+	<input type="radio" name="example" value="1" checked>バブルソート
+	<input type="radio" name="example" value="2">挿入ソート
+	<input type="radio" name="example" value="3">クイックソート
+	<input type="radio" name="example" value="4">マージソート
+	<input type="radio" name="example" value="5">シェルソート
+	<p><input type="button" value="乱数発生" onclick="Random()">
+	<input id="10" type="radio" name="ran" value="10"><label for="10">10</label>
+	<input id="20" type="radio" name="ran" value="20"><label for="20">20</label>
+	<input id="50" type="radio" name="ran" value="50"><label for="3">50</label>
+	<input id="100" type="radio" name="ran" value="100"><label for="4">100</label>
+	<input id="500" type="radio" name="ran" value="500"><label for="5">500</label>
+	</select>個の乱数発生</p>
+	<p><input type="button" value="グラフを表示" onclick="Run()"></p>
+	<p><input type="button" value="ソート" onclick="Gettext()"></p>
+	</form>
+	<canvas id="cvs" width="1500" height="1000">
+	<script src="canvas.js"></script>
+
+
+	</body>
+</html>
